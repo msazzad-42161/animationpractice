@@ -18,3 +18,15 @@ const data = [...Array(100)].map(() => ({
 }));
 
 export default data;
+export const generateFakeHome = () => ({
+    key: faker.string.uuid(),
+    image: faker.image.urlPicsumPhotos({
+        width: 80,
+        height: 80,
+        blur: 0
+    })
+})
+
+export const generateHomes = () => {
+    return [...Array(faker.number.int({ min: 1, max: 5 }))].map(() => generateFakeHome())
+}

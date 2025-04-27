@@ -21,6 +21,9 @@ function HomeScreen({ navigation }) {
             <Text
                 onPress={() => navigation.navigate('animated_tabs')}
                 style={styles.buttonText}>#6 👉 Animated Tabs</Text>
+            <Text
+                onPress={() => navigation.navigate('availability_animation')}
+                style={styles.buttonText}>#7 👉 Availability Animation</Text>
         </ScrollView>
     );
 }

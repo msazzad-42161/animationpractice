@@ -8,6 +8,7 @@ import Project4 from './projects/project4';
 import Project3 from './projects/project3';
 import Leaderboard from './projects/leaderboard';
 import AnimatedTabs from './projects/animated-tabs';
+import AvailabilityAnimation from './projects/availability-animation';
 
 const { Navigator, Screen } = createNativeStackNavigator();
 export default function App() {
@@ -54,6 +55,11 @@ export default function App() {
           name="animated_tabs"
           component={AnimatedTabs}
           options={{ headerShown: false, title: 'Animated Tabs' }}
+        />
+        <Screen
+          name="availability_animation"
+          component={AvailabilityAnimation}
+          options={{ headerShown: false, title: 'Availability Animation' }}
         />
       </Navigator>
     </NavigationContainer>
