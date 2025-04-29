@@ -9,6 +9,7 @@ import Project3 from './projects/project3';
 import Leaderboard from './projects/leaderboard';
 import AnimatedTabs from './projects/animated-tabs';
 import AvailabilityAnimation from './projects/availability-animation';
+import ScheduleAnimation from './projects/schedule-animation';
 
 const { Navigator, Screen } = createNativeStackNavigator();
 export default function App() {
@@ -60,6 +61,11 @@ export default function App() {
           name="availability_animation"
           component={AvailabilityAnimation}
           options={{ headerShown: false, title: 'Availability Animation' }}
+        />
+        <Screen
+          name="schedule_animation"
+          component={ScheduleAnimation}
+          options={{ headerShown: false, title: 'Schedule Animation' }}
         />
       </Navigator>
     </NavigationContainer>

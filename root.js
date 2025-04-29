@@ -24,6 +24,9 @@ function HomeScreen({ navigation }) {
             <Text
                 onPress={() => navigation.navigate('availability_animation')}
                 style={styles.buttonText}>#7 👉 Availability Animation</Text>
+            <Text
+                onPress={() => navigation.navigate('schedule_animation')}
+                style={styles.buttonText}>#8 👉 Schedule Animation</Text>
         </ScrollView>
     );
 }
