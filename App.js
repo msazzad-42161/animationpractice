@@ -10,7 +10,7 @@ import Leaderboard from './projects/leaderboard';
 import AnimatedTabs from './projects/animated-tabs';
 import AvailabilityAnimation from './projects/availability-animation';
 import ScheduleAnimation from './projects/schedule-animation';
-
+import onboardingCarousel from './projects/onboarding-carousel';
 const { Navigator, Screen } = createNativeStackNavigator();
 export default function App() {
   return (
@@ -66,6 +66,11 @@ export default function App() {
           name="schedule_animation"
           component={ScheduleAnimation}
           options={{ headerShown: false, title: 'Schedule Animation' }}
+        />
+        <Screen
+          name="onboarding_carousel"
+          component={onboardingCarousel}
+          options={{ headerShown: false, title: 'Onboarding Carousel' }}
         />
       </Navigator>
     </NavigationContainer>

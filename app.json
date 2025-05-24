@@ -1,4 +1,17 @@
 {
   "name": "animationpractice",
-  "slug": "animationpractice"
+  "slug": "animationpractice",
+  "extra": {
+    "eas": {
+      "projectId": "32e32e57-487b-47b1-a381-f2b4bf55d6a6"
+    }
+  },
+  "runtimeVersion": {
+    "policy": "appVersion"
+  },
+  "updates": {
+    "url": "https://u.expo.dev/32e32e57-487b-47b1-a381-f2b4bf55d6a6"
+  },
+  "android": {},
+  "ios": {}
 }

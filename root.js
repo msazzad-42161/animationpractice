@@ -27,6 +27,9 @@ function HomeScreen({ navigation }) {
             <Text
                 onPress={() => navigation.navigate('schedule_animation')}
                 style={styles.buttonText}>#8 👉 Schedule Animation</Text>
+            <Text
+                onPress={() => navigation.navigate('onboarding_carousel')}
+                style={styles.buttonText}>#9 👉 Onboarding Carousel</Text>
         </ScrollView>
     );
 }
